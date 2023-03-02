@@ -19,6 +19,9 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/checkout@v3.3.0
       - uses: actions/checkout@my-fake-branch
+      - uses: actions/checkout@v3.1.0 # comment
+      - uses: actions/checkout@my-other-fake-branch # comment
+      - uses: actions/checkout@xx593985615ec2ede58e132d2e21d2b1cbd6127c #comment
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
